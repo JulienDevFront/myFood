@@ -22,21 +22,24 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div>
+    <header class="headerHome">
+        <div class="headerHome__logo">
             <img src="../00_images/logo/OhMyFood.png" alt="Logo Ohmyfood">
         </div>
-        <nav>
+        <nav class="headerHome__nav">
             <form method="post" action="#">
                 <p>
                     <label><i class="fa-sharp fa-solid fa-location-dot"></i></label>
                     <input type="search" placeholder="Paris, Belleville">
                 </p>
             </form>
-            <h1>Réservez le menu qui vous convient</h1>
-            <p>Découvrez des restaurants d'exception sélectionnés par nos soins.</p>
+        </nav>
+        <h1 class="headerHome__title">Réservez le menu qui<br>vous convient</h1>
+        <p class="headerHome__text">Découvrez des restaurants d'exception,<br>sélectionnés par nos soins.</p>
+        <nav class="headerHome__nav--btn">
             <a href="#restaurants">Explorer nos restaurants</a>
         </nav>
+    </header>
     <main>
         <aside>
             <h2>Fonctionnement</h2>
@@ -48,7 +51,7 @@
         </aside>
         <article>
             <h2 id="restaurants">Restaurants</h2>
-            <section>
+            <section class="cardUi">
                 <a href="menuPaletteDuGout.html">
                     <img src="../00_images/restaurants/LaPaletteDuGoût.jpg" alt="Photo du restaurant la palette du goût">
                     <h3>La palette du gout</h3>
@@ -57,7 +60,7 @@
                     <p>Nouveau</p>
                 </a>
             </section>
-            <section>
+            <section class="cardUi">
                 <a href="menuNoteEnchante.html">
                     <img src="../00_images/restaurants/LaNoteEnchantée.jpg" alt="Photo du restaurant la note enchantée">
                     <h3>La note enchantée</h3>
@@ -66,7 +69,7 @@
                     <p>Nouveau</p>
                 </a>
             </section>
-            <section>
+            <section class="cardUi">
                 <a href="menuFrançais.html">
                     <img src="../00_images/restaurants/LaFrançaise.jpg" alt="Photo du restaurant à la française">
                     <h3>À la française</h3>
@@ -74,7 +77,7 @@
                     <button><span><i class="fa-regular fa-heart"></i></span><span><i class="fa-solid fa-heart"></i></span></button>
                 </a>
             </section>
-            <section>
+            <section class="cardUi">
                 <a href="menuDeliceDesSens.html">
                     <img src="../00_images/restaurants/LeDéliceDesSens.jpg" alt="Photo du restaurant le délice des sens">
                     <h3>Le délice des sens</h3>
