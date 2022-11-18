@@ -1,7 +1,22 @@
+/*//// colour ////*//*//// colour ////*//*//// colour ////*//*//// colour ////*//*//// colour ////*/
+/*//// colour ////*//*//// colour ////*//*//// colour ////*//*//// colour ////*//*//// colour ////*/
+
 $colour-primary:#9356DC;
 $colour-secondary:#FF79DA;
 $colour-tertiary:#99E2D0;
-$colour-background-little-dark:#f2f2f2;
-$colour-background-dark:#e7e7e7;
-$colour-white:#ffff;
-$colour-black:#000;
+$colour-green-txt:#3A8568;
+$colour-purple:#ece0f3;
+$colour-grey:#7E7E7E;
+$colour-grey-light:#EAEAE9;
+$colour-white:#fff;
+$colour-black:#0000;
+
+$background-white:#FFFFFF;
+$background-grey:#F6F6F6;
+$background-headerHome:#EAEAE9;
+$background-footer:#343535;
+$background-btn:#ebebeb;
+$background-btn--linear:linear-gradient(to top left, $colour-primary, $colour-secondary);
+
+$box-shadow-dark: 0px 2px 20px 2px #CFCFCF;
+$box-shadow-light: 0px 2px 20px 2px #EAEAE9;

@@ -1,12 +1,8 @@
-body {
-    width: 100%;
-}
-
 .headerHome {
     width: 100%;
-    background-color: $colour-background-dark;
+    background-color: $background-headerHome;
     
-    .headerHome__logo{
+    .headerHome__heading{
         width: 100%; height: 65px;
         display: flex;
         justify-content: center;
@@ -29,7 +25,7 @@ body {
             width: 150px;
             text-align: center;
             border: none;
-            background-color: $colour-background-dark;
+            background-color: $background-headerHome;
         }
     }
 
@@ -40,15 +36,15 @@ body {
         text-align: center;
         line-height: 25px;
         letter-spacing: 0.2px;
-        background-color: $colour-background-little-dark;
+        background-color: $background-grey;
     }
 
     .headerHome__text {
         width: 100%; height: auto;
         text-align: center;
         font-size: 1.1em;
-        color: #8e8e8e;
-        background-color: $colour-background-little-dark;
+        color: $colour-grey;
+        background-color: $background-grey;
     }
 
     .headerHome__nav--btn {
@@ -57,7 +53,7 @@ body {
         padding-bottom: 30px;
         display: flex;
         justify-content: center;
-        background-color: $colour-background-little-dark;
+        background-color: $background-grey;
         
         a {
             display: block;
@@ -66,10 +62,9 @@ body {
             text-align: center;
             text-shadow: 0px 0px 1px $colour-black;
             color: $colour-white;
-            background: linear-gradient(to top left, $colour-primary, $colour-secondary);
-            box-shadow: 0px 2px 10px #8e8e8e;
+            background: $background-btn--linear;
+            box-shadow: $box-shadow-dark;
             border-radius: 80px;
         }
     }
 }
-
