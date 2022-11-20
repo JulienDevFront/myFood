@@ -1,3 +1,6 @@
+/*///// footer /////*//*///// footer /////*//*///// footer /////*//*///// footer /////*//*///// footer /////*/
+/*///// footer /////*//*///// footer /////*//*///// footer /////*//*///// footer /////*//*///// footer /////*/
+
 .footer {
     width: 100%;
     padding: 20px;
@@ -6,20 +9,18 @@
     .footer__heading {
         margin-bottom: 20px;
         font-family: Shrikhand, sans-serif;
-        color: $colour-white;
     }
 
     .footer__list {
         margin-bottom: 5px;
-        color: $colour-white;
         
         .fa-footer {
             margin-right: 10px;
             font-size: .875em;
         }
-
-        .footer__list--link {
-            color: $colour-white;
-        }
     }
+}
+
+.footer__heading, .footer__list, .footer__list--link, .fa-footer {
+    color: $colour-white;
 }

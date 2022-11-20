@@ -1,0 +1,17 @@
+/*///// aside home /////*//*///// aside home /////*//*///// aside home /////*//*///// aside home /////*//*///// aside home /////*/
+/*///// aside home /////*//*///// aside home /////*//*///// aside home /////*//*///// aside home /////*//*///// aside home /////*/
+
+.asideHome {
+    width: 100%; height: 445px;
+    padding: 50px 20px;
+    background-color: $background-white;
+}
+
+.asideHome__container-btn { 
+    height: 260px;
+    margin-top: 40px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -1,0 +1,28 @@
+/*///// article menu /////*//*///// article menu /////*//*///// article menu /////*//*///// article menu /////*//*///// article menu /////*/
+/*///// article menu /////*//*///// article menu /////*//*///// article menu /////*//*///// article menu /////*//*///// article menu /////*/
+
+.articleMenu {
+    width: 100%; height: auto;
+    position: relative;
+    padding: 40px 20px;
+    background-color: $background-grey;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.articleMenu__heading {
+    position: relative;
+    font-size: 1.745em;
+    font-family: Shrikhand, sans-serif;
+
+    .articleMenu__heading--btn {
+        position: absolute;
+        right: 30px;
+        background-color: $background-grey;
+        border: none;
+
+        .fa-heart {
+            font-size: 1.5em;
+        }
+    }
+}

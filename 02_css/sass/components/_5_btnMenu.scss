@@ -1,0 +1,15 @@
+/*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*/
+/*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*/
+
+.btn--white { /* for btn menu *//* for btn menu */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: $colour-white;
+}
+
+.btn__txt {
+    font-size: .925em;
+    color: $colour-grey;
+}

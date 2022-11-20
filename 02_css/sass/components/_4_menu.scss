@@ -1,0 +1,39 @@
+.sectionMenu {
+    width: 100%; height: auto;
+    margin-top: 35px;
+}
+    
+.sectionMenu__heading{
+    font-weight: 400;
+    color: $colour-grey;
+    margin-bottom: 20px;
+
+    &::after {
+        content: "";
+        display: block;
+        width: 50px;
+        margin-top: 5px;
+        border-bottom: 3px solid $colour-tertiary;
+    }
+}
+
+.sectionMenu__list {
+    height: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .btn {
+        margin-bottom: 15px;
+    }
+}
+
+.btn-check {
+    display: none;
+}
+
+.sectionMenu__bottom {
+    width: 100%; height: 100px;
+    background-color: $background-grey;
+}

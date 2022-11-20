@@ -1,10 +1,27 @@
-@import "base/reset";
-@import "base/elementsTextuel";
-@import "utils/variables";
-@import "layouts/body";
-@import "pages/headerHome";
-@import "pages/mainHome";
-@import "pages/asideHome";
-@import "pages/articleHome";
-@import "components/cardUi.scss";
-@import "layouts/footer";
+/* base @import */
+@import "base/1_reset";
+@import "base/2_elementsTextuel";
+/* variables @import */
+@import "utils/1_variables";
+/* body @import */
+@import "layouts/1_body";
+/* header @import */
+@import "layouts/2_header";
+@import "pages/1_headerHome";
+@import "components/1_btnMain";
+@import "layouts/3_headerMenu";
+/* main @import */
+@import "pages/2_mainHome";
+@import "layouts/4_mainMenu";
+/* aside @import */
+@import "pages/3_asideHome";
+@import "components/2_btn";
+@import "layouts/5_asideMenu";
+/* article @import */
+@import "pages/4_articleHome";
+@import "components/3_cardUi";
+@import "layouts/6_articleMenu";
+@import "components/4_menu";
+@import "components/5_btnMenu";
+/* footer @import*/
+@import "layouts/7_footer";
