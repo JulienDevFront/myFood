@@ -5,7 +5,7 @@
     
 .sectionMenu__heading{
     font-weight: 400;
-    color: $colour-grey;
+    @include colour-grey-dark;
     margin-bottom: 20px;
 
     &::after {
@@ -34,6 +34,7 @@
 }
 
 .sectionMenu__bottom {
-    width: 100%; height: 100px;
-    background-color: $background-grey;
+    width: 100%; height: 120px;
+    @include center;
+    background-color: $colour-grey;
 }

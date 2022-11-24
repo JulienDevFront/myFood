@@ -5,58 +5,57 @@
     width: 100%; height: 250px;
     position: relative;/*for postion absolute for svg + info news*/
     margin-bottom: 20px;
-    background-color: $background-white;
-    box-shadow: $box-shadow-dark;
+    background-color: $colour-white;
+    @include box-shadow;
     border-radius: 20px;
 
     a {/*/*/
-        width: 100%; height: 100%;
-
-        .cardUi__heading {
-            width: 100%; height: 175px;
-            object-fit: cover;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
-        }
-
-        .cardUi__title {
-            width: 100%;
-            padding: 10px 10px 0px 15px;
-        }
-
-        .cardUi__txt {
-            width: 100%;
-            padding: 5px 10px 0px 15px; 
-            font-size: 1.125em;
-            color: $colour-grey;
-        }
-
-        .btn-like {
-            position: absolute;
-            bottom: 0%; right: 20px;
-            width: auto; height: 75px;
-            line-height: 75px;
-            text-align: center;
-            background-color: $background-white;
-
-                .fa-heart {
-                    font-size: 1.475em;
-                    color: $colour-grey;
-                    background-color: $background-white;
-                }
-        }
-
-        .cardUi__news {
-            position: absolute;
-            top: 15px; right: 15px;
-            width: 100px; height: 30px;
-            line-height: 30px;
-            text-align: center;
-            font-size: 0.875em;
-            font-weight: 700;
-            color: $colour-green-txt;
-            background-color: $colour-tertiary;
-            border-radius: 3px;
-        }
+        width: inherit; height: inherit;
+        display: block;
     }
+}
+
+
+.cardUi__heading {
+    width: 100%; height: 175px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cardUi__title {
+    width: 100%;
+    padding: .625rem .625rem 0rem 1rem;
+}
+
+.cardUi__txt {
+    width: 100%;
+    padding: .3rem .625rem 0rem 1rem; 
+    font-size: map-get($font-size-roboto, middle-font);
+    @include colour-grey-dark;
+}
+
+.btn-like {
+    position: absolute;
+    bottom: 0%; right: 20px;
+    width: auto; height: 75px;
+    @include center;
+    background-color: $colour-white;
+
+        .fa-heart {
+            font-size: map-get($font-size-roboto, big-font);
+            color: $colour-grey;
+            background-color: $colour-white;
+        }
+}
+
+.cardUi__news {
+    position: absolute;
+    top: 15px; right: 15px;
+    width: 100px; height: 30px;
+    @include center;
+    font-size: map-get($font-size-roboto, small-font);
+    font-weight: map-get($font-weight, big-bold);
+    border-radius: .2rem;
+    @include new-card-colour;
 }

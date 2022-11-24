@@ -3,7 +3,7 @@
 
 .header {
     width: 100%;
-    background-color: $background-headerHome;
+    @include bg-grey-dark;
 }
     
 .header__heading{

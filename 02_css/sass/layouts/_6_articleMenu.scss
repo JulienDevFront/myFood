@@ -4,8 +4,8 @@
 .articleMenu {
     width: 100%; height: auto;
     position: relative;
-    padding: 40px 20px;
-    background-color: $background-grey;
+    padding: 2.5rem 1.25rem 0rem 1.25rem;
+    background-color: $colour-grey;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
@@ -18,7 +18,7 @@
     .articleMenu__heading--btn {
         position: absolute;
         right: 30px;
-        background-color: $background-grey;
+        background-color: $colour-grey;
         border: none;
 
         .fa-heart {

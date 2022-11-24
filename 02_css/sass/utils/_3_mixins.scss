@@ -1,0 +1,23 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin new-card-colour($colour:$colour-tertiary) {
+    color: darken($colour, 40%);
+    background-color: $colour-tertiary;
+}
+
+@mixin box-shadow($colour:$colour-grey){
+    box-shadow: $box-shadow darken($colour, 15%);
+}
+
+@mixin colour-grey-dark($colour:$colour-grey){
+    color: darken($colour, 40%);
+}
+
+@mixin bg-grey-dark($colour:$colour-grey){
+    background-color: darken($colour, 5%);
+}
+
