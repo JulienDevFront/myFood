@@ -50,8 +50,11 @@
 
 .btn-checked-heart {
     background: linear-gradient(to top left, $colour-primary, $colour-secondary);
-    background-clip: text;
+    -moz-background-clip: text;
     -webkit-background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
     color: transparent; 
     opacity: 0;
     transition: transform 310ms ease-in-out;

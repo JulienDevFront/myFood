@@ -38,7 +38,7 @@
 
 @mixin animation-transition($duration: map-get($animation, duration), $timing: map-get($animation, timing)) {
     transition: transform $duration;
-    transition-timing-function: transform $timing;
+    transition-timing-function: $timing;
 }
 
 @mixin animationBtnOpacity {

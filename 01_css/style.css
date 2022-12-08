@@ -561,8 +561,11 @@ body {
 
 .btn-checked-heart {
   background: linear-gradient(to top left, #9356DC, #FF79DA);
-  background-clip: text;
+  -moz-background-clip: text;
   -webkit-background-clip: text;
+  -o-background-clip: text;
+  -ms-background-clip: text;
+  background-clip: text;
   color: transparent;
   opacity: 0;
   transition: transform 310ms ease-in-out;
@@ -701,7 +704,7 @@ body {
   font-size: 1.125rem;
   color: #fff;
   transition: transform 800ms;
-  transition-timing-function: transform ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
 /*///// animation check /////*/ /*///// animation check /////*/ /*///// animation check /////*/ /*///// animation check /////*/ /*///// animation check /////*/
