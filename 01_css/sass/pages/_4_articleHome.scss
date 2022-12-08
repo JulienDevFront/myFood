@@ -1,0 +1,27 @@
+/*///// article home /////*//*///// article home /////*//*///// article home /////*//*///// article home /////*//*///// article home /////*/
+/*///// article home /////*//*///// article home /////*//*///// article home /////*//*///// article home /////*//*///// article home /////*/
+/*///// article home /////*//*///// article home /////*//*///// article home /////*//*///// article home /////*//*///// article home /////*/
+/*///// article home /////*//*///// article home /////*//*///// article home /////*//*///// article home /////*//*///// article home /////*/
+
+.articleHome {
+    width: 100%;
+    padding: 3.125rem 1.25rem;
+
+    #restaurants {
+        margin-bottom: 1.875rem;
+    }
+
+    .articleHome__card {
+        width: inherit;
+        @include tablet-only {/* responsive tablet-only *//* responsive tablet-only */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        @include desktop-only {/* responsive desktop-only *//* responsive desktop-only */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+}

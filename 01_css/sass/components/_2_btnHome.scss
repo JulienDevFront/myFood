@@ -1,0 +1,64 @@
+/*///// btn home aside /////*//*///// btn home aside /////*//*///// btn home aside /////*//*///// btn home aside /////*//*///// btn home aside /////*/
+/*///// btn home aside /////*//*///// btn home aside /////*//*///// btn home aside /////*//*///// btn home aside /////*//*///// btn home aside /////*/
+/*///// btn home aside /////*//*///// btn home aside /////*//*///// btn home aside /////*//*///// btn home aside /////*//*///// btn home aside /////*/
+/*///// btn home aside /////*//*///// btn home aside /////*//*///// btn home aside /////*//*///// btn home aside /////*//*///// btn home aside /////*/
+
+.btnHome {/* font-size 1rem */
+    position: relative;
+    width: 100%; height: 70px;
+    line-height: 4.375rem;
+    font-size: $font-size-clamp-home;
+    border-radius: 1.125rem;
+    background-color: $colour-grey;
+    @include box-shadow;
+    @include tablet-only {/* responsive tablet-only *//* responsive tablet-only */
+        width: 30.95%;
+        @include center;
+        font-size: clamp(.875rem, 1vw, 1rem);
+    }
+    @include desktop-only {/* responsive desktop-only *//* responsive desktop-only */
+        width: 30.95%;
+        @include center;
+    }
+}
+
+.btnHome--pruple {
+    background-color: $colour-purple;
+}
+
+.btnHome__list { 
+    display: inline-block;
+    width: 22px; height: 22px;
+    position: relative;
+    left: -10px;
+    margin-right: .625rem;
+    line-height: 1.375rem;
+    text-align: center;
+    font-size: map-get($font-size-roboto, small-font);
+    color: $colour-white;
+    background-color: $colour-primary;
+    border-radius: 1.375rem;
+    @include tablet-only {/* responsive tablet-only *//* responsive tablet-only */
+        position: absolute;
+        top: 0; left: 50%;
+        transform: translate(-50%, -50%);
+        @include box-shadow;
+    }
+    @include desktop-only {/* responsive desktop-only *//* responsive desktop-only */
+        position: absolute;
+        top: 0; left: 50%;
+        transform: translate(-50%, -50%);
+        @include box-shadow;
+    }
+}
+
+.btnHome__icon {
+    margin-right: 1.125rem;
+    @include colour-grey-dark;
+    background-color: $colour-grey;
+}
+
+.btnHome__icon--purple {
+    color: $colour-primary;
+    background-color: $colour-purple;
+}

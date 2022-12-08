@@ -1,0 +1,119 @@
+/*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*/
+/*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*/
+/*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*/
+/*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*//*///// btn menu /////*/
+
+.btnMenu { 
+    width: 100%; height: 65px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .935rem;
+    padding-left: .625rem;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: $colour-white;
+    border-radius: 1.125rem;
+    @include box-shadow;
+
+    &:hover{
+        @include box-shadow-dark;
+    }
+}
+
+.btnMenu__container:nth-child(1) {
+    min-width: 120px;
+    
+    .btnMenu__heading, .btnMenu__txt  {
+        width: 100%; height: 50%;
+        line-height: 32.5px;
+        font-size: $font-size-clamp-menu;
+        @include text-overflow;
+        @include desktop-only {
+            font-size: $font-size-clamp-only-desktop;
+        }
+    }
+    
+    .btnMenu__txt {
+        @include colour-grey-dark;
+    }
+}
+
+
+.btnMenu__container:nth-child(2) {
+    width: 120px; height: 100%;
+    @include center;
+    margin-right: -60px;
+    transition: margin-right 520ms ease-in-out;
+
+    .btnMenu__price {
+        width: 60px; height: 100%;
+        text-align: center;
+        line-height: 65px;
+        padding-top: 1rem;
+        font-size: $font-size-clamp-menu;
+        font-weight: map-get($font-weight, middle-bold);
+    }
+}
+
+.btnMenu__check {
+    width: 60px; height: 100%;
+    @include center;
+    background-color: $colour-tertiary;
+
+    .check {
+        width: 100%; height: 100%;
+        @include center;
+        font-size: $font-size-clamp-menu;
+        font-weight: map-get($font-weight, middle-bold);
+
+        .fa-circle-check {
+            font-size: map-get($font-size-roboto, middle-font);
+            color: $colour-white;
+            @include animation-transition;
+        }
+    }
+}
+
+/*///// animation check /////*//*///// animation check /////*//*///// animation check /////*//*///// animation check /////*//*///// animation check /////*/
+/*///// animation check /////*//*///// animation check /////*//*///// animation check /////*//*///// animation check /////*//*///// animation check /////*/
+
+.btnMenu:hover .btnMenu__container:nth-child(2) {
+    margin-right: 0;
+}
+
+.btnMenu:hover .fa-circle-check {
+    transform: rotate(360deg);
+}
+
+/*///// animation btn menu appearance /////*//*///// animation btn menu appearance /////*//*///// animation btn menu appearance /////*//*///// animation btn menu appearance /////*//*///// animation btn menu appearance /////*/
+/*///// animation btn menu appearance /////*//*///// animation btn menu appearance /////*//*///// animation btn menu appearance /////*//*///// animation btn menu appearance /////*//*///// animation btn menu appearance /////*/
+
+.btnMenu--item1 {
+    animation: btnMenu 900ms ease-in-out;
+}
+
+.btnMenu--item2 {
+    animation: btnMenu 1200ms ease-in-out;
+}
+
+.btnMenu--item3 {
+    animation: btnMenu 1500ms ease-in-out;
+}
+
+.btnMenu--item4 {
+    animation: btnMenu 1800ms ease-in-out;
+}
+
+@keyframes btnMenu{
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    60% {
+        transform: translateY(-2px);
+    }
+    80% {
+        transform: translateY(0px);
+    }
+}

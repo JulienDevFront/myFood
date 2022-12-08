@@ -1,0 +1,59 @@
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin text-overflow {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@mixin new-card-colour($colour:$colour-tertiary) {
+    color: darken($colour, 40%);
+    background-color: $colour;
+}
+
+@mixin box-shadow($colour:$colour-grey){
+    box-shadow: $box-shadow darken($colour, 15%);
+}
+
+@mixin box-shadow-dark($colour:$colour-white){
+    box-shadow: $box-shadow darken($colour, 45%);
+}
+
+@mixin colour-grey-dark($colour:$colour-grey){
+    color: darken($colour, 40%);
+}
+
+@mixin bg-grey-dark($colour:$colour-grey){
+    background-color: darken($colour, 5%);
+}
+
+@mixin font-shrikhand($size: map-get($font-shrikhand, big-font), $family: map-get($font-shrikhand, family)){
+    font-size: $size;
+    font-family: $family;
+}
+
+@mixin animation-transition($duration: map-get($animation, duration), $timing: map-get($animation, timing)) {
+    transition: transform $duration;
+    transition-timing-function: transform $timing;
+}
+
+@mixin animationBtnOpacity {
+    opacity: 0.8;
+    transition: opacity 400ms 50ms ease-in-out;
+}
+
+@mixin tablet-only {
+    @media screen and (min-width: map-get($responsive, mobile)) and (max-width:map-get($responsive, tablet)) {
+    @content;
+    }
+}
+
+@mixin desktop-only {
+    @media screen and (min-width: map-get($responsive, tablet)) {
+        @content;
+    }
+}

@@ -1,0 +1,17 @@
+$colour-primary:#9356DC;
+$colour-secondary:#FF79DA;
+$colour-tertiary:#99E2D0;
+$colour-purple:#ece0f3;
+$colour-grey:#f3f3f3;
+$colour-white:#fff;
+$colour-black:#0000;
+$bg-footer:#343535;
+$box-shadow: 0rem .125rem 1.25rem .125rem;
+$font-size-roboto: (big-font:1.465rem, middle-font:1.125rem, basic-font:1rem, small-font:.875rem);
+$font-shrikhand: (big-font:1.745rem, middle-font:1rem, family:"shrikhand");
+$font-size-clamp-home: clamp(.625rem, 5vw, 1rem);
+$font-size-clamp-menu: clamp(.625rem, 4vw, 1rem);
+$font-size-clamp-only-desktop: clamp(.875rem, 1.2vw, 1rem);
+$font-weight:(big-bold:700, middle-bold:500, basic-bold:400);
+$animation: (duration:800ms, timing:ease-in-out);
+$responsive:(mobile:767px, tablet:992px);

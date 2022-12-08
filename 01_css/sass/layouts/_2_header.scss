@@ -1,0 +1,21 @@
+/*///// header home menu /////*//*///// header home menu /////*//*///// header home menu /////*//*///// header home menu /////*//*///// header home menu /////*/
+/*///// header home menu /////*//*///// header home menu /////*//*///// header home menu /////*//*///// header home menu /////*//*///// header home menu /////*/
+/*///// header home menu /////*//*///// header home menu /////*//*///// header home menu /////*//*///// header home menu /////*//*///// header home menu /////*/
+/*///// header home menu /////*//*///// header home menu /////*//*///// header home menu /////*//*///// header home menu /////*//*///// header home menu /////*/
+
+.header {
+    width: 100%;
+    @include bg-grey-dark;
+}
+    
+.header__heading{
+    width: 100%; height: 65px;
+    @include center;
+    background-color: $colour-white;
+    @include colour-grey-dark;
+    @include box-shadow;
+
+    img {
+        width: 165px; height: 30px;
+    }
+}

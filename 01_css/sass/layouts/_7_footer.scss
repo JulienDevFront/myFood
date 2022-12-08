@@ -1,0 +1,28 @@
+/*///// footer /////*//*///// footer /////*//*///// footer /////*//*///// footer /////*//*///// footer /////*/
+/*///// footer /////*//*///// footer /////*//*///// footer /////*//*///// footer /////*//*///// footer /////*/
+/*///// footer /////*//*///// footer /////*//*///// footer /////*//*///// footer /////*//*///// footer /////*/
+/*///// footer /////*//*///// footer /////*//*///// footer /////*//*///// footer /////*//*///// footer /////*/
+
+.footer {
+    width: 100%;
+    padding: 1.125rem;
+    background-color: $bg-footer;
+
+    .footer__heading {
+        margin-bottom: 1.125rem;
+        font-family: map-get($font-shrikhand, family), sans-serif;
+    }
+
+    .footer__list {
+        margin-bottom: .315rem;
+        
+        .fa-footer {
+            margin-right: .625rem;
+            font-size: .875rem;
+        }
+    }
+}
+
+.footer__heading, .footer__list, .footer__list--link, .fa-footer {
+    color: $colour-white;
+}

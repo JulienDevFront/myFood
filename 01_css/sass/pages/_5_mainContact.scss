@@ -1,0 +1,75 @@
+.mainContact__container {
+    width: 100%;
+    background-color: $bg-footer;
+    @include center;
+}
+
+.formContact {
+    width: 100%;
+    @include center;
+    padding: 3rem;
+    background-color: $colour-grey;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+}
+
+.formContact__container {
+    width: 100%;
+    margin-bottom: 2rem
+}
+
+.labFormContact{
+    @include colour-grey-dark;
+
+    &::after {
+        content: "";
+        width: 40px; height: 2px;
+        display: block;
+        margin: .625rem 0rem;
+        background-color: $colour-tertiary;
+    }
+}
+
+.formContact input{
+    width: 80vw;
+    height: 2.5rem;
+    padding-left: 1rem ;
+    font-size: $font-size-clamp-menu;
+    border-radius: .625rem;
+    @include box-shadow;
+    
+    &:hover {
+        @include box-shadow-dark;
+        background-color: rgba($colour-tertiary, 0.1);
+        transition: 400ms 100ms ease-in-out;
+    }
+}
+
+.formContact__container textarea[name="message"] {
+    width: 100%; height: 10rem;
+    padding: .625rem;
+    overflow: scroll;
+    resize: none;
+    font-size: $font-size-clamp-menu;
+    border-radius: .625rem;
+    @include box-shadow;
+
+    &:hover {
+        @include box-shadow-dark;
+        background-color: rgba($colour-tertiary, 0.1);
+        transition: 400ms 100ms ease-in-out;
+    }
+}
+
+.formContact input[type="submit"] {
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 0%;
+    color: $colour-white;
+    background-color: $colour-tertiary;
+    
+    &:hover {
+        @include animationBtnOpacity;
+    }
+}

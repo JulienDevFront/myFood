@@ -1,0 +1,43 @@
+/*///// header home /////*//*///// header home /////*//*///// header home /////*//*///// header home /////*//*///// header home /////*/
+/*///// header home /////*//*///// header home /////*//*///// header home /////*//*///// header home /////*//*///// header home /////*/
+/*///// header home /////*//*///// header home /////*//*///// header home /////*//*///// header home /////*//*///// header home /////*/
+/*///// header home /////*//*///// header home /////*//*///// header home /////*//*///// header home /////*//*///// header home /////*/
+
+.headerHome__nav {
+    width: 100%; height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        
+    [type="search"] {
+        width: 150px;
+        text-align: center;
+        border: none;
+        @include bg-grey-dark;
+    }
+}
+
+.header__bottom-home {
+    width: 100%;
+    background-color: $colour-grey;
+    
+    .headerHome__title {
+        width: 100%; height: 110px;
+        padding-top: 2.8rem;
+        text-align: center;
+        line-height: 1.55rem;
+        letter-spacing: .015rem;
+    }
+    
+    .headerHome__text {
+        width: 100%;
+        text-align: center;
+        @include colour-grey-dark;
+    }
+    
+    .headerHome__nav--bottom {
+        width: 100%; height: 140px;
+        padding-top: 1.875rem;
+        padding-bottom: 1.875rem;
+    }
+}
