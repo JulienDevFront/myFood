@@ -1,30 +1,22 @@
-/* base @import */
-@import "base/1_reset";
-/* variables @import */
-@import "utils/1_variables";
-@import "base/2_elementsTextuel";
-@import "utils/2_mixins";
-/* body @import */
-@import "layouts/1_body";
-@import "components/6_loader";
-/* header @import */
-@import "layouts/2_header";
-@import "pages/1_headerHome";
-@import "components/1_btnMain";
-@import "layouts/3_headerMenu";
-/* main @import */
-@import "pages/2_mainHome";
-@import "layouts/4_mainMenu";
-/* aside @import */
-@import "pages/3_asideHome";
-@import "components/2_btnHome";
-@import "layouts/5_asideMenu";
-/* article @import */
-@import "pages/4_articleHome";
-@import "components/3_card";
-@import "layouts/6_articleMenu";
-@import "components/4_menu";
-@import "components/5_btnMenu";
-@import "pages/5_mainContact";
-/* footer @import*/
-@import "layouts/7_footer";
+@import "utils/variables";
+@import "utils/mixins";
+@import "base/reset";
+@import "base/elementsTextuel";
+@import "composants/loader";
+@import "composants/btnMain";
+@import "composants/btnHome";
+@import "composants/card";
+@import "composants/btnHeart";
+@import "composants/menu";
+@import "layout/body";
+@import "layout/header";
+@import "layout/headerMenu";
+@import "layout/mainMenu";
+@import "layout/asideMenu";
+@import "layout/articleMenu";
+@import "layout/footer";
+@import "pages/headerHome";
+@import "pages/mainHome";
+@import "pages/asideHome";
+@import "pages/articleHome";
+@import "pages/mainContact";

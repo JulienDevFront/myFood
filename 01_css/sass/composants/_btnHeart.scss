@@ -1,0 +1,39 @@
+.btn-heart { /* container */
+    position: absolute;
+    bottom: 20px; right: 30px;
+    width: 2rem; height: 2rem;
+}
+
+.check-heart { /* my checkbox */
+    position: absolute;
+    width: 100%; height: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+
+.fa-heart { /* my two icon */
+    position: absolute;
+    font-size: 2rem;
+}
+
+.btn-unchecked-heart { /* first icon */
+    z-index: 1;
+}
+
+.btn-checked-heart { /* last icon */
+    background: linear-gradient(to top left, $colour-primary, $colour-secondary);
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    -o-background-clip: text;
+    -ms-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+    opacity: 0;
+    transition: transform 310ms ease-in-out;
+    transform: scale(0);
+}
+
+.check-heart:checked ~ .btn-checked-heart{
+    opacity: 1;
+    transform: scale(1);
+}

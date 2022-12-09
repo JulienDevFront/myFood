@@ -14,28 +14,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
     <!--CDN-font-awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!--Link-For-Css-->
     <link rel="stylesheet" href="01_css/style.css">
     <!--Title-->
     <title>menu, la palette du goût</title>
 </head>
 <body>
+    <!-- header -->
     <header class="header__heading">
         <nav class="header__nav--btnHome"><a href="index.html"><i class="fa-solid fa-arrow-left"></i></a></nav>
         <img src="00_images/logo/OhMyFood.png" alt="Logo ohmyfood">
     </header>
+    <!-- main -->
     <main class="mainMenu">
-        <aside class="asideMenu"><img src="00_images/restaurants/LaPaletteDuGoût.jpg" alt="Image du menu la palette du goût"></aside>
+        <!-- aside -->
+        <aside class="asideMenu"><img src="00_images/restaurants/LaPaletteDuGout.jpg" alt="Image du menu la palette du gout"></aside>
+        <!-- article -->
         <article class="articleMenu">
-            <h1 class="articleMenu__heading">La palette du goût
-                <button class="articleMenu__heading--btn">
-                    <input type="checkbox" id="check-heart" name="check-heart">
-                    <label for="check-heart"><i class="btn-unchecked-heart fa-regular fa-heart"></i></label>
+            <!-- heading -->
+            <div class="articleMenu__heading">
+                <h1>La palette du goût</h1>
+                <div class="btn-heart">
+                    <input type="checkbox" class="check-heart" name="check-heart">
+                    <label><i class="btn-unchecked-heart fa-regular fa-heart"></i></label>
                     <i class="btn-checked-heart fa-solid fa-heart"></i>
-                </button>
-            </h1>
+                </div>
+            </div>
+            <!-- bottom container menu -->
             <div class="sectionMenu__container-main">
+                <!-- menu -->
                 <section class="sectionMenu">
                     <h3 class="sectionMenu__heading">ENTRÉES</h3>
                     <menu class="sectionMenu__list">
@@ -46,9 +54,9 @@
                             </div>
                             <div class="btnMenu__container">
                                 <span class="btnMenu__price">25€</span>
-                                <boutton class="btnMenu__check">
+                                <div class="btnMenu__check">
                                     <span class="check"><i class="fa-sharp fa-solid fa-circle-check"></i></span>
-                                </boutton>
+                                </div>
                             </div>
                         </li>
                         <li class="btnMenu btnMenu--item2">
@@ -58,9 +66,9 @@
                             </div>
                             <div class="btnMenu__container">
                                 <span class="btnMenu__price">35€</span>
-                                <boutton class="btnMenu__check">
+                                <div class="btnMenu__check">
                                     <span class="check"><i class="fa-sharp fa-solid fa-circle-check"></i></span>
-                                </boutton>
+                                </div>
                             </div>
                         </li>
                         <li class="btnMenu btnMenu--item3">
@@ -70,13 +78,14 @@
                             </div>
                             <div class="btnMenu__container">
                                 <span class="btnMenu__price">20€</span>
-                                <boutton class="btnMenu__check">
+                                <div class="btnMenu__check">
                                     <span class="check"><i class="fa-sharp fa-solid fa-circle-check"></i></span>
-                                </boutton>
+                                </div>
                             </div>
                         </li>
                     </menu>
                 </section>
+                <!-- menu -->
                 <section class="sectionMenu">
                     <h3 class="sectionMenu__heading">PLATS</h3>
                     <menu class="sectionMenu__list">
@@ -87,9 +96,9 @@
                             </div>
                             <div class="btnMenu__container">
                                 <span class="btnMenu__price">40€</span>
-                                <boutton class="btnMenu__check">
+                                <div class="btnMenu__check">
                                     <span class="check"><i class="fa-sharp fa-solid fa-circle-check"></i></span>
-                                </boutton>
+                                </div>
                             </div>
                         </li>
                         <li class="btnMenu btnMenu--item2">
@@ -99,9 +108,9 @@
                             </div>
                             <div class="btnMenu__container">
                                 <span class="btnMenu__price">35€</span>
-                                <boutton class="btnMenu__check">
+                                <div class="btnMenu__check">
                                     <span class="check"><i class="fa-sharp fa-solid fa-circle-check"></i></span>
-                                </boutton>
+                                </div>
                             </div>
                         </li>
                         <li class="btnMenu btnMenu--item3">
@@ -111,13 +120,14 @@
                             </div>
                             <div class="btnMenu__container">
                                 <span class="btnMenu__price">44€</span>
-                                <boutton class="btnMenu__check">
+                                <div class="btnMenu__check">
                                     <span class="check"><i class="fa-sharp fa-solid fa-circle-check"></i></span>
-                                </boutton>
+                                </div>
                             </div>
                         </li>
                     </menu>
                 </section>
+                <!-- menu -->
                 <section class="sectionMenu">
                     <h3 class="sectionMenu__heading">DESSERTS</h3>
                     <menu class="sectionMenu__list">
@@ -128,9 +138,9 @@
                             </div>
                             <div class="btnMenu__container">
                                 <span class="btnMenu__price">18€</span>
-                                <boutton class="btnMenu__check">
+                                <div class="btnMenu__check">
                                     <span class="check"><i class="fa-sharp fa-solid fa-circle-check"></i></span>
-                                </boutton>
+                                </div>
                             </div>
                         </li>
                         <li class="btnMenu btnMenu--item2">
@@ -140,9 +150,9 @@
                             </div>
                             <div class="btnMenu__container">
                                 <span class="btnMenu__price">18€</span>
-                                <boutton class="btnMenu__check">
+                                <div class="btnMenu__check">
                                     <span class="check"><i class="fa-sharp fa-solid fa-circle-check"></i></span>
-                                </boutton>
+                                </div>
                             </div>
                         </li>
                         <li class="btnMenu btnMenu--item3">
@@ -152,19 +162,21 @@
                             </div>
                             <div class="btnMenu__container">
                                 <span class="btnMenu__price">23€</span>
-                                <boutton class="btnMenu__check">
+                                <div class="btnMenu__check">
                                     <span class="check"><i class="fa-sharp fa-solid fa-circle-check"></i></span>
-                                </boutton>
+                                </div>
                             </div>
                         </li>
                     </menu>
                 </section>
             </div>
         </article>
+        <!-- btn main -->
         <div class="sectionMenu__bottom">
             <button class="btn-main">Commander</button>
         </div>
     </main>
+    <!-- footer -->
     <footer class="footer">
         <h3 class="footer__heading">ohmyfood</h3>
         <ul>

@@ -5,7 +5,7 @@
 
 .card-container {
     width: 100%; height: 250px;
-    display: block;
+    position: relative; /* for the element "new" and "btn-heart" */
     margin-bottom: 1.25rem;
     @include tablet-only {
         width: 48.5%;
@@ -15,8 +15,8 @@
     }
 
     .card {
-        width: inherit; height: inherit;
-        position: relative;/*for postion absolute for svg + info news*/
+        width: 100%; height: 100%;
+        display: block;
         background-color: $colour-white;
         @include box-shadow;
         border-radius: 1.25rem;
@@ -34,9 +34,13 @@
 
 .card__heading {
     width: 100%; height: 175px;
-    object-fit: cover;
-    border-top-left-radius: 1.25rem;
-    border-top-right-radius: 1.25rem;
+
+    img {
+        width: 100%; height: 100%;
+        object-fit: cover;
+        border-top-left-radius: 1.25rem;
+        border-top-right-radius: 1.25rem;
+    }
 }
 
 .card__title {
@@ -49,13 +53,6 @@
     padding: .3rem .625rem 0rem 1rem; 
     font-size: map-get($font-size-roboto, middle-font);
     @include colour-grey-dark;
-}
-
-.card__btn-heart {
-    position: absolute;
-    bottom: 15px; right: 60px;
-    width: auto; height: 75px;
-    background-color: $colour-white;
 }
 
 .card__news {

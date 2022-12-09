@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* base @import */ /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/
+/*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/
 /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/
 /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/
 /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/ /*///// reset /////*/
@@ -18,7 +18,6 @@
   color: #000;
 }
 
-/* variables @import */
 /*///// éléments textuel /////*/ /*///// éléments textuel /////*/ /*///// éléments textuel /////*/ /*///// éléments textuel /////*/ /*///// éléments textuel /////*/
 /*///// éléments textuel /////*/ /*///// éléments textuel /////*/ /*///// éléments textuel /////*/ /*///// éléments textuel /////*/ /*///// éléments textuel /////*/
 /*///// éléments textuel /////*/ /*///// éléments textuel /////*/ /*///// éléments textuel /////*/ /*///// éléments textuel /////*/ /*///// éléments textuel /////*/
@@ -37,15 +36,6 @@ h3, h4 {
 
 h4 {
   font-weight: 500;
-}
-
-/* body @import */
-/*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/
-/*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/
-/*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/
-/*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/
-body {
-  width: 100%;
 }
 
 /*///// loader /////*/ /*///// loader /////*/ /*///// loader /////*/ /*///// loader /////*/ /*///// loader /////*/
@@ -121,73 +111,6 @@ body {
     transform: scale(0.5);
   }
 }
-/* header @import */
-/*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/
-/*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/
-/*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/
-/*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/
-.header {
-  width: 100%;
-  background-color: #e6e6e6;
-}
-
-.header__heading {
-  width: 100%;
-  height: 65px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  color: #8d8d8d;
-  box-shadow: 0rem 0.125rem 1.25rem 0.125rem #cdcdcd;
-}
-.header__heading img {
-  width: 165px;
-  height: 30px;
-}
-
-/*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/
-/*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/
-/*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/
-/*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/
-.headerHome__nav {
-  width: 100%;
-  height: 45px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.headerHome__nav [type=search] {
-  width: 150px;
-  text-align: center;
-  border: none;
-  background-color: #e6e6e6;
-}
-
-.header__bottom-home {
-  width: 100%;
-  background-color: #f3f3f3;
-}
-.header__bottom-home .headerHome__title {
-  width: 100%;
-  height: 110px;
-  padding-top: 2.8rem;
-  text-align: center;
-  line-height: 1.55rem;
-  letter-spacing: 0.015rem;
-}
-.header__bottom-home .headerHome__text {
-  width: 100%;
-  text-align: center;
-  color: #8d8d8d;
-}
-.header__bottom-home .headerHome__nav--bottom {
-  width: 100%;
-  height: 140px;
-  padding-top: 1.875rem;
-  padding-bottom: 1.875rem;
-}
-
 /*///// btn main /////*/ /*///// btn main /////*/ /*///// btn main /////*/ /*///// btn main /////*/ /*///// btn main /////*/
 /*///// btn main /////*/ /*///// btn main /////*/ /*///// btn main /////*/ /*///// btn main /////*/ /*///// btn main /////*/
 /*///// btn main /////*/ /*///// btn main /////*/ /*///// btn main /////*/ /*///// btn main /////*/ /*///// btn main /////*/
@@ -210,88 +133,6 @@ body {
   border: 2px solid #9356DC;
   opacity: 0.8;
   transition: opacity 400ms 50ms ease-in-out;
-}
-
-/*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/
-/*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/
-/*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/
-/*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/
-.header__nav--btnHome {
-  position: absolute;
-  left: 30px;
-}
-.header__nav--btnHome a {
-  width: inherit;
-  height: inherit;
-  margin-bottom: 0%;
-}
-
-/* main @import */
-/*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/
-/*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/
-/*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/
-/*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/
-.mainHome {
-  width: 100%;
-  background-color: #f3f3f3;
-}
-
-/*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/
-/*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/
-/*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/
-/*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/
-.mainMenu {
-  width: 100%;
-  height: auto;
-}
-
-/* aside @import */
-/*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/
-/*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/
-/*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/
-/*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/
-.asideHome {
-  width: 100%;
-  height: 445px;
-  padding: 3.125rem 1.25rem;
-  background-color: #fff;
-}
-@media screen and (min-width: 767px) and (max-width: 992px) {
-  .asideHome {
-    height: auto;
-  }
-}
-@media screen and (min-width: 992px) {
-  .asideHome {
-    height: auto;
-  }
-}
-.asideHome .asideHome__heading {
-  width: 100%;
-  padding-bottom: 2.5rem;
-}
-
-.asideHome__container-btn {
-  width: 100%;
-  height: 280px;
-  padding-left: 0.625rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-@media screen and (min-width: 767px) and (max-width: 992px) {
-  .asideHome__container-btn {
-    height: auto;
-    flex-direction: row;
-    padding-left: 0%;
-  }
-}
-@media screen and (min-width: 992px) {
-  .asideHome__container-btn {
-    height: auto;
-    flex-direction: row;
-    padding-left: 0%;
-  }
 }
 
 /*///// btn home aside /////*/ /*///// btn home aside /////*/ /*///// btn home aside /////*/ /*///// btn home aside /////*/ /*///// btn home aside /////*/
@@ -374,50 +215,6 @@ body {
   background-color: #ece0f3;
 }
 
-/*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/
-/*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/
-/*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/
-/*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/
-.asideMenu {
-  width: 100%;
-  height: 250px;
-}
-.asideMenu img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-}
-
-/* article @import */
-/*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/
-/*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/
-/*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/
-/*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/
-.articleHome {
-  width: 100%;
-  padding: 3.125rem 1.25rem;
-}
-.articleHome #restaurants {
-  margin-bottom: 1.875rem;
-}
-.articleHome .articleHome__card {
-  width: inherit;
-}
-@media screen and (min-width: 767px) and (max-width: 992px) {
-  .articleHome .articleHome__card { /* responsive tablet-only */ /* responsive tablet-only */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}
-@media screen and (min-width: 992px) {
-  .articleHome .articleHome__card { /* responsive desktop-only */ /* responsive desktop-only */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-}
-
 /*///// card article home /////*/ /*///// card article home /////*/ /*///// card article home /////*/ /*///// card article home /////*/ /*///// card article home /////*/
 /*///// card article home /////*/ /*///// card article home /////*/ /*///// card article home /////*/ /*///// card article home /////*/ /*///// card article home /////*/
 /*///// card article home /////*/ /*///// card article home /////*/ /*///// card article home /////*/ /*///// card article home /////*/ /*///// card article home /////*/
@@ -425,7 +222,7 @@ body {
 .card-container {
   width: 100%;
   height: 250px;
-  display: block;
+  position: relative; /* for the element "new" and "btn-heart" */
   margin-bottom: 1.25rem;
 }
 @media screen and (min-width: 767px) and (max-width: 992px) {
@@ -439,9 +236,9 @@ body {
   }
 }
 .card-container .card {
-  width: inherit;
-  height: inherit;
-  position: relative; /*for postion absolute for svg + info news*/
+  width: 100%;
+  height: 100%;
+  display: block;
   background-color: #fff;
   box-shadow: 0rem 0.125rem 1.25rem 0.125rem #cdcdcd;
   border-radius: 1.25rem;
@@ -463,6 +260,10 @@ body {
 .card__heading {
   width: 100%;
   height: 175px;
+}
+.card__heading img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-top-left-radius: 1.25rem;
   border-top-right-radius: 1.25rem;
@@ -478,15 +279,6 @@ body {
   padding: 0.3rem 0.625rem 0rem 1rem;
   font-size: 1.125rem;
   color: #8d8d8d;
-}
-
-.card__btn-heart {
-  position: absolute;
-  bottom: 15px;
-  right: 60px;
-  width: auto;
-  height: 75px;
-  background-color: #fff;
 }
 
 .card__news {
@@ -505,61 +297,32 @@ body {
   background-color: #99E2D0;
 }
 
-/*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/
-/*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/
-/*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/
-/*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/
-.sectionMenu__container-main {
-  width: 100%;
-}
-@media screen and (min-width: 992px) {
-  .sectionMenu__container-main {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-.articleMenu {
-  width: 100%;
-  position: relative;
-  padding: 2.5rem 1.25rem 0rem 1.25rem;
-  background-color: #f3f3f3;
-  border-top-left-radius: 2.5rem;
-  border-top-right-radius: 2.5rem;
-}
-
-.articleMenu__heading {
-  position: relative;
-  font-size: 1.745rem;
-  font-family: "shrikhand";
-  font-size: clamp(1rem, 6.5vw, 1.745rem);
-}
-
-.articleMenu__heading--btn {
+.btn-heart { /* container */
   position: absolute;
-  top: -10px;
-  right: 50px;
-  border: none;
-}
-
-#check-heart {
-  position: absolute;
+  bottom: 20px;
+  right: 30px;
   width: 2rem;
   height: 2rem;
+}
+
+.check-heart { /* my checkbox */
+  position: absolute;
+  width: 100%;
+  height: 100%;
   opacity: 0;
   z-index: 2;
 }
 
-.fa-heart {
+.fa-heart { /* my two icon */
   position: absolute;
   font-size: 2rem;
 }
 
-.btn-unchecked-heart {
+.btn-unchecked-heart { /* first icon */
   z-index: 1;
 }
 
-.btn-checked-heart {
+.btn-checked-heart { /* last icon */
   background: linear-gradient(to top left, #9356DC, #FF79DA);
   -moz-background-clip: text;
   -webkit-background-clip: text;
@@ -572,15 +335,15 @@ body {
   transform: scale(0);
 }
 
-#check-heart:checked ~ .btn-checked-heart {
+.check-heart:checked ~ .btn-checked-heart {
   opacity: 1;
   transform: scale(1);
 }
 
-/*///// section menu container /////*/ /*///// section menu container /////*/ /*///// section menu container /////*/ /*///// section menu container /////*/ /*///// section menu container /////*/
-/*///// section menu container /////*/ /*///// section menu container /////*/ /*///// section menu container /////*/ /*///// section menu container /////*/ /*///// section menu container /////*/
-/*///// section menu container /////*/ /*///// section menu container /////*/ /*///// section menu container /////*/ /*///// section menu container /////*/ /*///// section menu container /////*/
-/*///// section menu container /////*/ /*///// section menu container /////*/ /*///// section menu container /////*/ /*///// section menu container /////*/ /*///// section menu container /////*/
+/*///// menu /////*/ /*///// menu /////*/ /*///// menu /////*/ /*///// menu /////*/ /*///// menu /////*/
+/*///// menu /////*/ /*///// menu /////*/ /*///// menu /////*/ /*///// menu /////*/ /*///// menu /////*/
+/*///// menu /////*/ /*///// menu /////*/ /*///// menu /////*/ /*///// menu /////*/ /*///// menu /////*/
+/*///// menu /////*/ /*///// menu /////*/ /*///// menu /////*/ /*///// menu /////*/ /*///// menu /////*/
 .sectionMenu {
   width: 100%;
   margin-top: 2.185rem;
@@ -747,6 +510,268 @@ body {
     transform: translateY(0px);
   }
 }
+/*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/
+/*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/
+/*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/
+/*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/ /*///// body /////*/
+body {
+  width: 100%;
+}
+
+/*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/
+/*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/
+/*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/
+/*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/ /*///// header home menu /////*/
+.header {
+  width: 100%;
+  background-color: #e6e6e6;
+}
+
+.header__heading {
+  width: 100%;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  color: #8d8d8d;
+  box-shadow: 0rem 0.125rem 1.25rem 0.125rem #cdcdcd;
+}
+.header__heading img {
+  width: 165px;
+  height: 30px;
+}
+
+/*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/
+/*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/
+/*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/
+/*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/ /*///// header menu /////*/
+.header__nav--btnHome {
+  position: absolute;
+  left: 30px;
+}
+.header__nav--btnHome a {
+  width: inherit;
+  height: inherit;
+  margin-bottom: 0%;
+}
+
+/*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/
+/*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/
+/*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/
+/*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/ /*///// main menu /////*/
+.mainMenu {
+  width: 100%;
+  height: auto;
+}
+
+/*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/
+/*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/
+/*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/
+/*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/ /*///// aside menu /////*/
+.asideMenu {
+  width: 100%;
+  height: 250px;
+}
+.asideMenu img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/
+/*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/
+/*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/
+/*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/ /*///// article menu /////*/
+.sectionMenu__container-main {
+  width: 100%;
+}
+@media screen and (min-width: 992px) {
+  .sectionMenu__container-main {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.articleMenu {
+  width: 100%;
+  position: relative; /* for the border-radius */
+  padding: 2.5rem 1.25rem 0rem 1.25rem;
+  background-color: #f3f3f3;
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+}
+
+.articleMenu__heading {
+  position: relative; /* for the element "btn-heart" */
+}
+.articleMenu__heading .btn-heart {
+  bottom: 0;
+}
+
+.articleMenu__heading h1 {
+  font-size: 1.745rem;
+  font-family: "shrikhand";
+  font-size: clamp(1rem, 6.5vw, 1.745rem);
+}
+
+/*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/
+/*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/
+/*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/
+/*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/
+.footer {
+  width: 100%;
+  padding: 1.125rem;
+  background-color: #343535;
+}
+.footer .footer__heading {
+  margin-bottom: 1.125rem;
+  font-family: "shrikhand", sans-serif;
+}
+.footer .footer__list {
+  margin-bottom: 0.315rem;
+}
+.footer .footer__list .fa-footer {
+  margin-right: 0.625rem;
+  font-size: 0.875rem;
+}
+
+.footer__heading, .footer__list, .footer__list--link, .fa-footer {
+  color: #fff;
+}
+
+/*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/
+/*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/
+/*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/
+/*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/ /*///// header home /////*/
+.headerHome__nav {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerHome__nav [type=search] {
+  width: 150px;
+  text-align: center;
+  border: none;
+  background-color: #e6e6e6;
+}
+
+.header__bottom-home {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.header__bottom-home .headerHome__title {
+  width: 100%;
+  height: 110px;
+  padding-top: 2.8rem;
+  text-align: center;
+  line-height: 1.55rem;
+  letter-spacing: 0.015rem;
+}
+.header__bottom-home .headerHome__text {
+  width: 100%;
+  text-align: center;
+  color: #8d8d8d;
+}
+.header__bottom-home .headerHome__nav--bottom {
+  width: 100%;
+  height: 140px;
+  padding-top: 1.875rem;
+  padding-bottom: 1.875rem;
+}
+
+/*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/
+/*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/
+/*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/
+/*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/ /*///// main home /////*/
+.mainHome {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+/*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/
+/*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/
+/*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/
+/*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/ /*///// aside home /////*/
+.asideHome {
+  width: 100%;
+  height: 445px;
+  padding: 3.125rem 1.25rem;
+  background-color: #fff;
+}
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .asideHome {
+    height: auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  .asideHome {
+    height: auto;
+  }
+}
+.asideHome .asideHome__heading {
+  width: 100%;
+  padding-bottom: 2.5rem;
+}
+
+.asideHome__container-btn {
+  width: 100%;
+  height: 280px;
+  padding-left: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .asideHome__container-btn {
+    height: auto;
+    flex-direction: row;
+    padding-left: 0%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .asideHome__container-btn {
+    height: auto;
+    flex-direction: row;
+    padding-left: 0%;
+  }
+}
+
+/*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/
+/*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/
+/*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/
+/*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/ /*///// article home /////*/
+.articleHome {
+  width: 100%;
+  padding: 3.125rem 1.25rem;
+}
+.articleHome #restaurants {
+  margin-bottom: 1.875rem;
+}
+.articleHome .articleHome__card {
+  width: inherit;
+}
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .articleHome .articleHome__card { /* responsive tablet-only */ /* responsive tablet-only */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 992px) {
+  .articleHome .articleHome__card { /* responsive desktop-only */ /* responsive desktop-only */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+/*///// main pages contact /////*/ /*///// main pages contact /////*/ /*///// main pages contact /////*/ /*///// main pages contact /////*/ /*///// main pages contact /////*/
+/*///// main pages contact /////*/ /*///// main pages contact /////*/ /*///// main pages contact /////*/ /*///// main pages contact /////*/ /*///// main pages contact /////*/
+/*///// main pages contact /////*/ /*///// main pages contact /////*/ /*///// main pages contact /////*/ /*///// main pages contact /////*/ /*///// main pages contact /////*/
+/*///// main pages contact /////*/ /*///// main pages contact /////*/ /*///// main pages contact /////*/ /*///// main pages contact /////*/ /*///// main pages contact /////*/
 .mainContact__container {
   width: 100%;
   background-color: #343535;
@@ -824,32 +849,6 @@ body {
 .formContact input[type=submit]:hover {
   opacity: 0.8;
   transition: opacity 400ms 50ms ease-in-out;
-}
-
-/* footer @import*/
-/*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/
-/*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/
-/*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/
-/*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/ /*///// footer /////*/
-.footer {
-  width: 100%;
-  padding: 1.125rem;
-  background-color: #343535;
-}
-.footer .footer__heading {
-  margin-bottom: 1.125rem;
-  font-family: "shrikhand", sans-serif;
-}
-.footer .footer__list {
-  margin-bottom: 0.315rem;
-}
-.footer .footer__list .fa-footer {
-  margin-right: 0.625rem;
-  font-size: 0.875rem;
-}
-
-.footer__heading, .footer__list, .footer__list--link, .fa-footer {
-  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
